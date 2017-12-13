@@ -7,7 +7,7 @@
 <body>
   <a href="/">Home</a>
   <h1>Check out all the awesome quotes!</h1>
-  <% for (const quote of quotes) { %>
+  <% for (var quote of quotes) { %>
     <h3>Author: <%= quote.name %></h3>
     <p>Quote: <%= quote.quote %></p>
   <% } %>
